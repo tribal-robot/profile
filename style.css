@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap');
+
+body {
+  background-color: #e5e5e5;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: light;
+  color: black;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+h1 {
+  color: #002c8b;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  color: #305ec2;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.card-container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.text-center {
+  text-align: center;
+}
+.card-white {
+  background-color: white;
+  border: 1px solid lightgrey;
+  margin: 20px 0px;
+  padding: 8px 30px;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+i {
+  font-size: 40px;
+}
+
+.list-inline i:hover {
+  color: black;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card-container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card-container {
+    width: 500px;
+  }
+}
